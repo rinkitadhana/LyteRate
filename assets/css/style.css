@@ -27,6 +27,7 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
+  margin-right: 1450px;
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -67,21 +68,15 @@ h6 {
 }
 
 #header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-#header .logo a {
-  color: #fff;
-}
-
 #header .logo img {
-  max-height: 40px;
+  margin-left: -95px;
+  max-height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -165,11 +160,11 @@ h6 {
 .navbar .getstarted:focus {
   padding: 8px 25px;
   margin-left: 12px;
-  border-radius: 10px;
+  border-radius: 25px;
   color: #fff;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #FFD700;
+  border: 3px solid #FFD700;
 }
 
 .navbar .getstarted:hover,
@@ -513,7 +508,7 @@ h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #000000;
   animation-delay: 0.8s;
   text-transform: uppercase;
   border: 2px solid  #FFD700;
@@ -521,8 +516,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #6ab82a;
-  border-color: #6ab82a;
+  background: #a0a0a0;
+  border-color: #929292;
   color: #fff;
 }
 
@@ -560,12 +555,14 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color:  #FFD700;
+  font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #000000;
+    width: 200px;
+    margin-left: 550px;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 
 .section-title p {
@@ -788,7 +785,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #8ed851;
+  color: #ffd900;
 }
 
 .why-us .box h4 {
@@ -1017,13 +1014,14 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: #ffffff;
   position: relative;
 }
 
 .team .member .member-info {
   opacity: 0;
   display: flex;
+  border-radius: 25px;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -1234,7 +1232,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #9cdc66;
+  color: #878787;
 }
 
 .faq .faq-list .icon-show,
@@ -1255,7 +1253,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #818181;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1294,7 +1292,7 @@ section {
 .contact .contact-info address,
 .contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: #000000;
 }
 
 .contact .contact-info h3 {
@@ -1302,7 +1300,7 @@ section {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #000000;
 }
 
 .contact .contact-info a {
@@ -1335,7 +1333,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #b3b3b3;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1355,7 +1353,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #aeaeae;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1364,10 +1362,10 @@ section {
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 20px;
   height: auto;
   padding: 10px 15px;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 .contact .php-email-form input:focus,
@@ -1379,13 +1377,13 @@ section {
   background:  #FFD700;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: #fff;
+  color: #000000;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #6ab82a;
+  background: #b4b4b4;
 }
 
 @keyframes animate-loading {
@@ -1536,7 +1534,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #8ed851;
+  color: #b4b4b4;
   font-size: 18px;
   line-height: 1;
 }
@@ -1559,7 +1557,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #81d33d;
+  color: #b4b4b4;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1592,7 +1590,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #6ab82a;
+  background: #b7b7b7;
 }
 
 #footer .copyright {
@@ -1722,7 +1720,7 @@ section {
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #b5b5b5;
   --color-secondary: #161718;
 }
 
