@@ -27,11 +27,10 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  margin-right: 1450px;
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background:  #FFD700;
