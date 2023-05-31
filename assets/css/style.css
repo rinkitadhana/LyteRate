@@ -560,7 +560,8 @@ section {
     background-color: #FFD700;
     color: #000000;
     width: 200px;
-    margin-left: 550px;
+    margin: auto;
+    margin-bottom:20px;
     padding: 10px 20px;
     border-radius: 25px;
 }
