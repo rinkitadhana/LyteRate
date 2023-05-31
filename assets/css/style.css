@@ -159,7 +159,6 @@ h6 {
 .navbar .getstarted,
 .navbar .getstarted:focus {
   padding: 8px 25px;
-  margin-left: 12px;
   border-radius: 25px;
   color: #fff;
   font-weight: 400;
@@ -327,8 +326,9 @@ h6 {
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
-  margin: 15px;
+  margin: 1px;
   color:  #FFD700;
+  width: 130px;
   padding-left: 15px;
 }
 
